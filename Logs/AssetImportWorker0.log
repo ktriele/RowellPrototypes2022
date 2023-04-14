@@ -1,0 +1,317 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Git hub/RowellPrototypes2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59320
+Successfully changed project path to: C:/Git hub/RowellPrototypes2022
+C:/Git hub/RowellPrototypes2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15688] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 4242783924 [EditorId] 4242783924 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15688] Host "[IP] 10.171.129.92 [Port] 0 [Flags] 2 [Guid] 4242783924 [EditorId] 4242783924 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W022) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 66.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git hub/RowellPrototypes2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8082 MB
+    Driver:   30.0.101.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007195 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (582ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004475 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (853ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2989 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (56.6 KB). Loaded Objects now: 3453.
+Memory consumption went from 108.3 MB to 108.3 MB.
+Total: 2.651400 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.247600 ms  DeleteObjects: 0.068500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70249.874860 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Readme.asset
+  artifactKey: Guid(4bbba03f3ed882d41bc9a67391c8479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Readme.asset using Guid(4bbba03f3ed882d41bc9a67391c8479e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820dae02ec3bbce829d8d994ea61d6ba') in 0.021912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.456963 seconds.
+  path: Assets/Materials/Colour #1.mat
+  artifactKey: Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Colour #1.mat using Guid(8b5b09f7a34d367449049d5dc49f94e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f2979a2bd262a64aee0a2c1cbadef9') in 0.293896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006643 seconds.
+  path: Assets/Scenes/Horror Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Horror Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089724f60b36b1a883dde01948de25d') in 0.005345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.706253 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets
+  artifactKey: Guid(16a096e4285719b4c9f1002816ea53e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets using Guid(16a096e4285719b4c9f1002816ea53e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5130167dba3abcf2095bd3ac35770972') in 0.006834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620343 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source
+  artifactKey: Guid(34b1f7bb62fd0f241bc8aff7cfb9bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source using Guid(34b1f7bb62fd0f241bc8aff7cfb9bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e357e36536c19db49a533da8ffb8733') in 0.007618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.827072 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets
+  artifactKey: Guid(0424d34bd7dc7dd40b3a0c0a76b01372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets using Guid(0424d34bd7dc7dd40b3a0c0a76b01372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a841f7824cd47be993647e4ba592ee0') in 0.009502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.241964 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes
+  artifactKey: Guid(cb619fd9f51169c4cb8af381f53f6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes using Guid(cb619fd9f51169c4cb8af381f53f6dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7efa08de153cd26f9e6bf568b9e44b') in 0.007131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.076095 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo.unity
+  artifactKey: Guid(256769920e9044840af722b74e30b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo.unity using Guid(256769920e9044840af722b74e30b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d39b15f31c0ab3ec4de7be1025058f2') in 0.006665 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003991 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git hub\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Layer:Player added by EtraStarterAssetSetup.cs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:116)
+EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:28)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs Line: 116)
+
+Default GameObject BitMask: UI already registered
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:120)
+EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:28)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs line 120]
+
+Layer:EtraFPSUsableItem added by EtraStarterAssetSetup.cs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:116)
+EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs Line: 116)
+
+Default GameObject BitMask: UI already registered
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+EtraStarterAssetSetup:addLayer (string) (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:120)
+EtraStarterAssetSetup:InitializeOnLoad () (at Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Etra Games/Etra'sStarterAssets/2-Source/Editor/EtraStarterAssetSetup.cs line 120]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (119.4 KB). Loaded Objects now: 3666.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 2.571800 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.169200 ms  DeleteObjects: 0.065000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

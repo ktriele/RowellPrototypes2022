@@ -4,23 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shootable
-  - Interactable Object
-  - Sphere
-  - Cube
-  - Cyllinder
-  - Collectable
-  - Ball
+  - Interactable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+  - UI
+  - EtraFPSUsableItem
   - 
-  - 
-  - Lighting
   - 
   - 
   - 
