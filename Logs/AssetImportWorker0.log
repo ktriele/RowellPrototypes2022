@@ -15,7 +15,7 @@ C:/EGOGOD/RowellPrototypes2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59332
+61169
 Successfully changed project path to: C:/EGOGOD/RowellPrototypes2022
 C:/EGOGOD/RowellPrototypes2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/EGOGOD/RowellPrototypes2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10356] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 3614684002 [EditorId] 3614684002 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13236] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 4242723682 [EditorId] 4242723682 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10356] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 3614684002 [EditorId] 3614684002 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13236] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 4242723682 [EditorId] 4242723682 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Default GameObject BitMask: UI already registered
-Refreshing native plugins compatible for Editor in 69.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -68,93 +68,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007718 seconds.
+Registered in 0.007446 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.583 seconds
+- Completed reload, in  0.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (584ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (591ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (409ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
+				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004524 seconds.
+Registered in 0.004519 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.936 seconds
 Domain Reload Profiling:
-	ReloadAssembly (893ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (684ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (347ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Default GameObject BitMask: UI already registered
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (121.7 KB). Loaded Objects now: 3636.
-Memory consumption went from 200.4 MB to 200.3 MB.
-Total: 2.783200 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.165200 ms MarkObjects: 2.309200 ms  DeleteObjects: 0.077800 ms)
+Unloading 35 unused Assets / (121.9 KB). Loaded Objects now: 3638.
+Memory consumption went from 201.1 MB to 201.0 MB.
+Total: 2.724500 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.264900 ms  DeleteObjects: 0.083300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,633 +168,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 515133.614648 seconds.
-  path: Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.mat
-  artifactKey: Guid(ef9b0c0fe78b1ff4891ad60df5caacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.mat using Guid(ef9b0c0fe78b1ff4891ad60df5caacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d25cb49d3c9adb01a60013a50014756') in 0.122307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asset pack for horror game/Models/broken bed/broken bed.fbx
-  artifactKey: Guid(b6aeaf37aa4c053489b1e7feb2e8fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed.fbx using Guid(b6aeaf37aa4c053489b1e7feb2e8fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1ac466ada75f7ef098fcc7eb59a3bb') in 0.060611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SwampHouse/Models/House/Mets/Bulb-on.mat
-  artifactKey: Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/House/Mets/Bulb-on.mat using Guid(d9f467314ce6d564ca1ea76b8f63a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e4c794dccbd5072799b783467319cb') in 0.100660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.fbx
-  artifactKey: Guid(2b4cf484280bf794aa01a08971d7c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.fbx using Guid(2b4cf484280bf794aa01a08971d7c169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f96fb37e8a5a0874cea12090c57da5e') in 0.043089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SwampHouse/Models/House/Mets/Bricks.mat
-  artifactKey: Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/House/Mets/Bricks.mat using Guid(56150a2091eb60f4480f94c1d15b2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da907ec7ee96782f8feb792cb64e57b3') in 0.195643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SwampHouse/Models/Barrel/Materials/Barrel2.mat
-  artifactKey: Guid(15524d6a97edcb348b136b7278bc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Barrel/Materials/Barrel2.mat using Guid(15524d6a97edcb348b136b7278bc98fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508eb87bd72e67abd94040c2d1a76d49') in 0.023585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset pack for horror game/Models/bed/bed.mat
-  artifactKey: Guid(9a8d3fcc880d4db4b803a629f50f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/bed/bed.mat using Guid(9a8d3fcc880d4db4b803a629f50f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75600cba2622a9ad02ced400164f78b8') in 0.048204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset pack for horror game/Models/broken bed/broken bed.mat
-  artifactKey: Guid(1f2b3574b7ea3384bb5bbe00005e8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed.mat using Guid(1f2b3574b7ea3384bb5bbe00005e8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b52e2720b960db417e4cf79eac0ad20') in 0.041841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset pack for horror game/Models/broken window/broken window.fbx
-  artifactKey: Guid(f7b5fd9b6957de04daec035169cacc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken window/broken window.fbx using Guid(f7b5fd9b6957de04daec035169cacc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad1da92a932b087c2f0f4b4c2523d95') in 0.043498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.mat
-  artifactKey: Guid(ff2a2e6e6407e744a9fd0a2d2268440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood.mat using Guid(ff2a2e6e6407e744a9fd0a2d2268440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb738b1bf3593a8578dc3f681e08162a') in 0.041625 seconds 
+  Time since last request: 257294.563818 seconds.
+  path: Assets/SwampHouse/Prefabs/door.prefab
+  artifactKey: Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/door.prefab using Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc38cfe7bd913a06745c77c84f68823') in 0.114414 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/SwampHouse/Models/House/Mets/Corrugate.mat
-  artifactKey: Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/House/Mets/Corrugate.mat using Guid(5e7d5f3c652456f4d864ff964f6a8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b914c275e9c5fb1931d51b31aa0f245d') in 0.036987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset pack for horror game/Models/broken window/broken window.mat
-  artifactKey: Guid(2a753ce07725b6b4e9dd90faebb3bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/broken window/broken window.mat using Guid(2a753ce07725b6b4e9dd90faebb3bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6517813e47f436908a5c29349e5451e6') in 0.129102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Asset pack for horror game/Models/curtain/curtain.fbx
-  artifactKey: Guid(ed7b06dd89d630f4eb2b050a37a33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/curtain/curtain.fbx using Guid(ed7b06dd89d630f4eb2b050a37a33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c219977b6e6b196b688f7d06357bb91') in 0.042642 seconds 
+  path: Assets/Fences/gate.prefab
+  artifactKey: Guid(05e127ba46a3ae04eacf83d589ca4873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/gate.prefab using Guid(05e127ba46a3ae04eacf83d589ca4873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ed2e4c6cb297efbfd223b897bdf69e') in 0.005170 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/SwampHouse/Models/House/Mets/Button.mat
-  artifactKey: Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/House/Mets/Button.mat using Guid(67f32a368730a484d89cfc44a6359fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18edc73f8d97375da8d8dcbad6efb77c') in 0.016582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SwampHouse/Models/Radio/Tex/Materials/Display 2.mat
-  artifactKey: Guid(05fd8194d606e444ca434aa3e12ab7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Radio/Tex/Materials/Display 2.mat using Guid(05fd8194d606e444ca434aa3e12ab7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cae4c6959bcbc59e6cd4208ce0664c') in 0.023408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.fbx
-  artifactKey: Guid(70bce123534f9d941b2b4f70c05a193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/bed with person with blood/bed with person with blood.fbx using Guid(70bce123534f9d941b2b4f70c05a193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e3cc7d4cb1ebf7102bd6fb5506440d') in 0.055373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset pack for horror game/Models/bed/bed.fbx
-  artifactKey: Guid(8965007fcd67e304bad0217b88af6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/bed/bed.fbx using Guid(8965007fcd67e304bad0217b88af6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439c5b8c15cec37c069becf8bebc23da') in 0.040800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Asset pack for horror game/Models/Door/Door.mat
-  artifactKey: Guid(13a89611fd159b645ad9d7336b4d12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Door/Door.mat using Guid(13a89611fd159b645ad9d7336b4d12d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cf7bc7d282f71680441d774254a3f4') in 0.039352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SwampHouse/Models/Radio/Headphone/Headphone.fbx
-  artifactKey: Guid(f0e7998f077f28044a626b5c6e6163ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Radio/Headphone/Headphone.fbx using Guid(f0e7998f077f28044a626b5c6e6163ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93adefe35fe281c96fd22ab88c8eb9e5') in 0.059037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.mat
-  artifactKey: Guid(d510709ca1dc18e4aa85898ae76c5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.mat using Guid(d510709ca1dc18e4aa85898ae76c5049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a7d2fafdb6a44b484d8693fd875ce3') in 0.040718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SwampHouse/Models/Radio/Radio.fbx
-  artifactKey: Guid(9509c5b766352084a9e9847b113590b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Radio/Radio.fbx using Guid(9509c5b766352084a9e9847b113590b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe62aa2c9b4481391a96df73771c1a08') in 0.118180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SwampHouse/Models/Radio/Tex/Materials/Body.mat
-  artifactKey: Guid(c0e21b40bfedd2d4bb3e3b0c5e276287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Radio/Tex/Materials/Body.mat using Guid(c0e21b40bfedd2d4bb3e3b0c5e276287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fc5a9ab7867b3da4f27942441e3e9c') in 0.017091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset pack for horror game/Models/curtain/curtain.mat
-  artifactKey: Guid(aed325219a6ae9e4b893637972bd8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/curtain/curtain.mat using Guid(aed325219a6ae9e4b893637972bd8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e3db48855647075bbb25d7fb06bf3b') in 0.024530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SwampHouse/Models/Barrel/Materials/Barrel.mat
-  artifactKey: Guid(9d6239a5718cd1e48be24819bb5a2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Barrel/Materials/Barrel.mat using Guid(9d6239a5718cd1e48be24819bb5a2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59987530fa726e54ece4bfb9a7440487') in 0.023651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Models/Door/Door.fbx
-  artifactKey: Guid(7707b2b7239b05f43862d77e9d31565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Door/Door.fbx using Guid(7707b2b7239b05f43862d77e9d31565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc714edb2b61a74d54ba515ba99e07b') in 0.050298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.fbx
-  artifactKey: Guid(f8ccfd0090958aa4e844f5bb68407553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain.fbx using Guid(f8ccfd0090958aa4e844f5bb68407553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd6d24f2d978effacf3d5ddb6cb25d6') in 0.034574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SwampHouse/Models/Table/Stool.fbx
-  artifactKey: Guid(700f9ae30218c6a4686462db5b594800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/Table/Stool.fbx using Guid(700f9ae30218c6a4686462db5b594800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf63e7d63647abec8db8c028662ad308') in 0.040123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SwampHouse/Models/House/Mets/Bulb-off.mat
-  artifactKey: Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SwampHouse/Models/House/Mets/Bulb-off.mat using Guid(2b98517fe119ca647ba13b3e0e7175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcbc182feb9fb38d168afa83f078c4e') in 0.030278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.157572 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Bed with person with blood.prefab
-  artifactKey: Guid(71ae3e09e08c9b443bbc5f5bb033a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Bed with person with blood.prefab using Guid(71ae3e09e08c9b443bbc5f5bb033a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6938ac1b9455b5ca2489b8ab3fc5fc3f') in 0.024423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Bed.prefab
-  artifactKey: Guid(dbb5441a3fce2ce41872b3d78e0a7f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Bed.prefab using Guid(dbb5441a3fce2ce41872b3d78e0a7f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b35a33b99a2605329ae668419395531') in 0.026715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Key.prefab
-  artifactKey: Guid(0d20e1d66b73cd747922d8c2aa19b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Key.prefab using Guid(0d20e1d66b73cd747922d8c2aa19b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d04b8514e0ab675eab6842f5a5254c') in 0.020062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Window.prefab
-  artifactKey: Guid(7eaeaf649770040418b98b8605bdb96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Window.prefab using Guid(7eaeaf649770040418b98b8605bdb96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9701ad2abcfd74f2d8f4557a75df25ef') in 0.022911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Broken window.prefab
-  artifactKey: Guid(fb5ece791d9906b439f4e3ca4cc633ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Broken window.prefab using Guid(fb5ece791d9906b439f4e3ca4cc633ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4503f57724a0006dd3cff6282f8c0c2') in 0.028146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Broken bed.prefab
-  artifactKey: Guid(cf9769da514c444459977f2c3b46e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Broken bed.prefab using Guid(cf9769da514c444459977f2c3b46e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e1bf0179132f39e591dd89833aef3b') in 0.023675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Incandescent lamp.prefab
-  artifactKey: Guid(870abe8e92bb2ae4fa98e2692d489f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Incandescent lamp.prefab using Guid(870abe8e92bb2ae4fa98e2692d489f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d5fd5c9d031658e7ce597c6a6718d') in 0.026208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Wooden table.prefab
-  artifactKey: Guid(157eb6e39e01ebf4b9728380df90f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Wooden table.prefab using Guid(157eb6e39e01ebf4b9728380df90f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac424fb319739ec8b0700dd634609950') in 0.026039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Room.prefab
-  artifactKey: Guid(9d3fe81427a90ba459d648ce510d6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Room.prefab using Guid(9d3fe81427a90ba459d648ce510d6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccee7809b5b7c6c39b39f122aedc2d0') in 0.027067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Wood chair.prefab
-  artifactKey: Guid(b766e40c765d54f47b33afb59d1f903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Wood chair.prefab using Guid(b766e40c765d54f47b33afb59d1f903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db182de085610213c29cb7a5082e6c9f') in 0.028576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Curtain.prefab
-  artifactKey: Guid(8cc796bf074b38844ad31c1e4ab3128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Curtain.prefab using Guid(8cc796bf074b38844ad31c1e4ab3128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0d513baa664929df95fc49a9c8521c') in 0.028087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Broken iron chair.prefab
-  artifactKey: Guid(425c9ab8b858a5a4aa416f1525fc826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Broken iron chair.prefab using Guid(425c9ab8b858a5a4aa416f1525fc826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596ad21b4172997cbe8cdda47c1c3fed') in 0.025950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Wheelchair.prefab
-  artifactKey: Guid(9bdbe5e160ee8424ba6d6a35af3ba2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Wheelchair.prefab using Guid(9bdbe5e160ee8424ba6d6a35af3ba2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c28e7c0fd50eebdc3c633e20a60ae4') in 0.023719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Door.prefab
-  artifactKey: Guid(141d9336c44a64a4c8ba3afff7a69b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Door.prefab using Guid(141d9336c44a64a4c8ba3afff7a69b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57f4b56d0596970585cbe460f43125') in 0.027464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Fluorescent lamp.prefab
-  artifactKey: Guid(82d6102e26d76fc43984f82578eb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Fluorescent lamp.prefab using Guid(82d6102e26d76fc43984f82578eb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd562484207765170c9e66238359c68a7') in 0.025024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Broken wheelchair with blood.prefab
-  artifactKey: Guid(3af6176e1598452469f2c1c6307ccba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Broken wheelchair with blood.prefab using Guid(3af6176e1598452469f2c1c6307ccba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64fdb46a3eb2fd439a43992673a10d') in 0.025567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Broken wooden chair.prefab
-  artifactKey: Guid(84bafcf644c5e4642abba44a10141b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Broken wooden chair.prefab using Guid(84bafcf644c5e4642abba44a10141b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b20cf846b3d8ef752c7aeae6b10d4') in 0.025413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Dirty curtain.prefab
-  artifactKey: Guid(d371a4f30de5bcc4c832c9216325e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Dirty curtain.prefab using Guid(d371a4f30de5bcc4c832c9216325e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c409106fdebf221aa4865767493fcb7') in 0.024082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Asset pack for horror game/Prefabs/Iron chair.prefab
-  artifactKey: Guid(bd2a496943cc6aa4b8d49188ce77767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Prefabs/Iron chair.prefab using Guid(bd2a496943cc6aa4b8d49188ce77767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c000220222630a266fbf8b8bb0878') in 0.043158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.036047 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo/ReflectionProbe-0.exr
-  artifactKey: Guid(13c6316ee712b7d4380d0f53c653e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/Scenes/FPSCharacterDemo/ReflectionProbe-0.exr using Guid(13c6316ee712b7d4380d0f53c653e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d974d8890d72fb9e7010c269dde0d01') in 0.027755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 154.693096 seconds.
-  path: Assets/Cabin/Terrain/terrain.asset
-  artifactKey: Guid(c3efb4f4cf372834ea40068955c091e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/terrain.asset using Guid(c3efb4f4cf372834ea40068955c091e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89449e84c93bcfc137edeb24156d4a84') in 0.030527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.722369 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyBack2048.png
-  artifactKey: Guid(5376d0cd45fe9b246a13bf9f802ec865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyBack2048.png using Guid(5376d0cd45fe9b246a13bf9f802ec865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc454a9c48a3b6bc7eb97ba44e3d24b') in 0.022639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyRight2048.png
-  artifactKey: Guid(e85908199acb5fb4b96d078ce842aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyRight2048.png using Guid(e85908199acb5fb4b96d078ce842aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a61aa9c0e975884e8d5e11431a1b248') in 0.014008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyLeft2048.png
-  artifactKey: Guid(b60830f3f6a2a80439d619d854f3705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyLeft2048.png using Guid(b60830f3f6a2a80439d619d854f3705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6583f546b8d7018c30c740b50657a302') in 0.016027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyUp2048.png
-  artifactKey: Guid(194bc5ef74c690e4ebb467dd0583a82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyUp2048.png using Guid(194bc5ef74c690e4ebb467dd0583a82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c85b15c30039d9f384f304f4e3ff2') in 0.021669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyDown2048.png
-  artifactKey: Guid(130e72776d5773248bec9667f0418756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyDown2048.png using Guid(130e72776d5773248bec9667f0418756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a279c51e475112b7ab43b6985bcb88') in 0.022718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyFront2048.png
-  artifactKey: Guid(f78a70105ee071a48a3dc5cc668e61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Sky by Heiko Irrgang/DarkStormyFront2048.png using Guid(f78a70105ee071a48a3dc5cc668e61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e893e156dba82ff464c18c2fd6b7f2') in 0.012630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.273951 seconds.
-  path: Assets/Cabin/Terrain/Tree/Bark.png
-  artifactKey: Guid(6f396d96a20b6464db3dc12070710ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Bark.png using Guid(6f396d96a20b6464db3dc12070710ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f89e7451194271ecd4013dad75e4d0') in 0.012612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cabin/Terrain/Tree/Bark_Normal.png
-  artifactKey: Guid(7ca60b391c9a82b43aeb80324c212ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Bark_Normal.png using Guid(7ca60b391c9a82b43aeb80324c212ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7187383ffedc12780c97bc1253c9fca') in 0.022876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.223923 seconds.
-  path: Assets/Cabin/Terrain/Tree/Tree_Textures/diffuse.png
-  artifactKey: Guid(dfa6422c9266ec941bd6aa2aadad985a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Tree_Textures/diffuse.png using Guid(dfa6422c9266ec941bd6aa2aadad985a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bf8892fa5946a30b16df4aebfdcf6') in 0.016714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cabin/Terrain/Tree/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(a5d0afffc5b513a47b6e9c5252224e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Tree_Textures/translucency_gloss.png using Guid(a5d0afffc5b513a47b6e9c5252224e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf9bbd9bc8015bbceebbed5681267f') in 0.014796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Cabin/Terrain/Tree/Tree_Textures/normal_specular.png
-  artifactKey: Guid(460c9034fdafe3f48be15a37b4f21a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Tree_Textures/normal_specular.png using Guid(460c9034fdafe3f48be15a37b4f21a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244c2f5c01732a0b2f22b1640088bab7') in 0.020782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cabin/Terrain/Tree/Tree_Textures/shadow.png
-  artifactKey: Guid(5348d8441811e684d9fc1d1558f2b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Tree/Tree_Textures/shadow.png using Guid(5348d8441811e684d9fc1d1558f2b9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427e8dc1313219e1169fdf5e7c5ecdd0') in 0.010436 seconds 
-========================================================================
-Received Prepare
-Default GameObject BitMask: UI already registered
-Registering precompiled user dll's ...
-Registered in 0.004335 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1240ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (470ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (95.3 KB). Loaded Objects now: 3700.
-Memory consumption went from 203.4 MB to 203.3 MB.
-Total: 4.202300 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.355500 ms MarkObjects: 3.463900 ms  DeleteObjects: 0.058500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 118.284028 seconds.
-  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/CharacterAsset/InputSystem/EtraStarterAssets.inputsettings.asset
-  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/CharacterAsset/InputSystem/EtraStarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f63db9e3e1ad7180c2270da42c557d2') in 0.015921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.162655 seconds.
-  path: Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.mat
-  artifactKey: Guid(239aeb8a3c03db643989be90fd8813bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.mat using Guid(239aeb8a3c03db643989be90fd8813bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c530fc82620b639b6d291933bc5f8029') in 0.082793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.fbx
-  artifactKey: Guid(5d9c5baea1407914486c3f1d6c45d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.fbx using Guid(5d9c5baea1407914486c3f1d6c45d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f056d557529519f5a648615468fdf6') in 0.048741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cabin/Terrain/Textures by textures.com/Materials/Grass.mat
-  artifactKey: Guid(61792a122e4a74f49a5f2136a0fbc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Textures by textures.com/Materials/Grass.mat using Guid(61792a122e4a74f49a5f2136a0fbc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03bd46b92088da73cacec2b9fe1d1ed') in 0.018311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Cabin/Terrain/Materials/ground.mat
-  artifactKey: Guid(5572c26d724c66f4c9e6fe62d44352ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Materials/ground.mat using Guid(5572c26d724c66f4c9e6fe62d44352ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16c7a729d1d7f7ee4f29983fd00b4e1') in 0.016660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.fbx
-  artifactKey: Guid(e404c1a307050314391b320cb269b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/fluorescent lamp/fluorescent lamp.fbx using Guid(e404c1a307050314391b320cb269b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fc5c4ab77bc5830813580114ace143') in 0.036818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.481569 seconds.
-  path: Assets/Asset pack for horror game/Models/iron chair/broken iron chair.fbx
-  artifactKey: Guid(778d9e9886d8aab4da536fcbc72dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/iron chair/broken iron chair.fbx using Guid(778d9e9886d8aab4da536fcbc72dffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171a17e82fd488915a5f5a7c996e5e8d') in 0.031922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset pack for horror game/Models/iron chair/iron chair.fbx
-  artifactKey: Guid(e267554162ba8724fac7a8ab162b684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/iron chair/iron chair.fbx using Guid(e267554162ba8724fac7a8ab162b684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0bacb7bef16951dc25b4763096e116') in 0.024590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asset pack for horror game/Models/Room/Room.fbx
-  artifactKey: Guid(53587facaf2842f4898516b2fe7225c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Room/Room.fbx using Guid(53587facaf2842f4898516b2fe7225c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96678a5eb5f31e5c60aa15842af70ab') in 0.024863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.fbx
-  artifactKey: Guid(e188d6361c779884aa6fb6f6d5addf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.fbx using Guid(e188d6361c779884aa6fb6f6d5addf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cb7c5dbe1fa8e5127fe48c322767b9') in 0.025500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Models/Window/Window.fbx
-  artifactKey: Guid(bdc8f2b9a66d51d438c656e7ea57558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Window/Window.fbx using Guid(bdc8f2b9a66d51d438c656e7ea57558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fef12e18bbfe783545c091b90f0703') in 0.033350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset pack for horror game/Models/wood chair/broken wooden chair.fbx
-  artifactKey: Guid(e5497db20e527704b8f0954cda676d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/wood chair/broken wooden chair.fbx using Guid(e5497db20e527704b8f0954cda676d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b07b6fcd7b38bac5830e07a0f335d8') in 0.031244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset pack for horror game/Models/wood chair/wood chair.fbx
-  artifactKey: Guid(ca36d41503db1a642b0e69cbff6e2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair.fbx using Guid(ca36d41503db1a642b0e69cbff6e2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46401371d3478b16cb02807da7c40f64') in 0.023736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset pack for horror game/Models/key/key.fbx
-  artifactKey: Guid(2c5e779568bc06c4d947ac355f408a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/key/key.fbx using Guid(2c5e779568bc06c4d947ac355f408a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f16b806057db9d472a3e984692b7e3') in 0.030300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table.fbx
-  artifactKey: Guid(3f567369409017542950fb64f611c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table.fbx using Guid(3f567369409017542950fb64f611c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb2b82b90ad80c2b0e706e4e6c88587') in 0.045513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.961429 seconds.
-  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.mat
-  artifactKey: Guid(3f0b9a55f0e709d4d83117ba1af763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp.mat using Guid(3f0b9a55f0e709d4d83117ba1af763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68b39c18d1d609868bf9a8ea5cb8309') in 0.019219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cabin/Terrain/Textures by textures.com/Materials/Leaves.mat
-  artifactKey: Guid(5ab975f487c100d458a5e72690320fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cabin/Terrain/Textures by textures.com/Materials/Leaves.mat using Guid(5ab975f487c100d458a5e72690320fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a44db1ede98c7b90d29933191096dd') in 0.019642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset pack for horror game/Models/fluorescent lamp/Light.mat
-  artifactKey: Guid(13e9d088013535b498142bbff968ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/fluorescent lamp/Light.mat using Guid(13e9d088013535b498142bbff968ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656033d42e5afdf890c04a89d1341b35') in 0.014965 seconds 
+  path: Assets/SwampHouse/Prefabs/Barrel 2.prefab
+  artifactKey: Guid(94b47ef13475e574a991120bc2f3703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Barrel 2.prefab using Guid(94b47ef13475e574a991120bc2f3703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ad98567302e622d394ba05a1731385') in 0.052956 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Asset pack for horror game/Models/iron chair/iron chair_baseColor.mat
-  artifactKey: Guid(0d66ef54e2a47eb4298092c7ad930f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/iron chair/iron chair_baseColor.mat using Guid(0d66ef54e2a47eb4298092c7ad930f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06c351cef16371fad0d27073dad61cd') in 0.024890 seconds 
+  path: Assets/SwampHouse/Prefabs/Ladder.prefab
+  artifactKey: Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Ladder.prefab using Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df20f0528db1097d8c9f3ec41d3c3b7') in 0.053272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SwampHouse/Prefabs/Full/HideOut.prefab
+  artifactKey: Guid(696e59b6d0b879946a6111454c3205ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Full/HideOut.prefab using Guid(696e59b6d0b879946a6111454c3205ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75a92acd37c5ee2be865a3b325165d2') in 0.170203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SwampHouse/Prefabs/Stool.prefab
+  artifactKey: Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Stool.prefab using Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ab25de82fc88a5abd79ee43b717fef') in 0.054903 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Asset pack for horror game/Models/Room/Room.mat
-  artifactKey: Guid(e94e675a9edf57f498eebb1b277522dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Room/Room.mat using Guid(e94e675a9edf57f498eebb1b277522dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b92068e9f2eaaaedea91e92994e6dd') in 0.023749 seconds 
+  path: Assets/SwampHouse/Prefabs/Table 2.prefab
+  artifactKey: Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Table 2.prefab using Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1517fa49519f58e405bbfffe7e999d') in 0.055009 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset pack for horror game/Models/key/key.mat
-  artifactKey: Guid(eaeb934ccde705849981a75770dfddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/key/key.mat using Guid(eaeb934ccde705849981a75770dfddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561b30e0329427d80e10ce51e5bf1ce4') in 0.018742 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fences/fence2.prefab
+  artifactKey: Guid(aae325f10678d8041bd3a1a4433c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence2.prefab using Guid(aae325f10678d8041bd3a1a4433c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c32f52851efe98f0ccfa817636059') in 0.008300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.144639 seconds.
-  path: Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.mat
-  artifactKey: Guid(2b42ff87246d6cb44acc3ec3472e9a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair.mat using Guid(2b42ff87246d6cb44acc3ec3472e9a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa6504c3c96c59f1557c1370b82b438') in 0.025892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table.mat
-  artifactKey: Guid(ff675f12a0ae7374a95503c4d8df7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table.mat using Guid(ff675f12a0ae7374a95503c4d8df7a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e135cf81fb9ce4fd74442f6938223') in 0.027986 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/SwampHouse/Prefabs/Barrel 1.prefab
+  artifactKey: Guid(03f0fa8f9c151c046ad30e5b776dbeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Barrel 1.prefab using Guid(03f0fa8f9c151c046ad30e5b776dbeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984dfb4ad1b67994e52aadcc5f5952fa') in 0.027302 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Asset pack for horror game/Models/Window/Window.mat
-  artifactKey: Guid(2e2ee1f6d6ec63449b39996e7de66f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/Window/Window.mat using Guid(2e2ee1f6d6ec63449b39996e7de66f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fde1c568490890ee43d9efcdc036e2') in 0.026246 seconds 
+  path: Assets/Fences/fence_column.prefab
+  artifactKey: Guid(18f52e9609c5ce84986850393c95338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence_column.prefab using Guid(18f52e9609c5ce84986850393c95338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b344bc0ebd6d0f4e0731c1d044131a47') in 0.003647 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset pack for horror game/Models/wood chair/wood chair.mat
-  artifactKey: Guid(0ff5973e1eb723f4789902219fdcbe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair.mat using Guid(0ff5973e1eb723f4789902219fdcbe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a04c93b18dfa58dd93fc8fd3642142') in 0.023930 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/SwampHouse/Prefabs/Radio_leftover.prefab
+  artifactKey: Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Radio_leftover.prefab using Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458bfee397f31d86bb0439cf8a29fd16') in 0.038851 seconds 
 ========================================================================
-Received Prepare
-Default GameObject BitMask: UI already registered
-Registering precompiled user dll's ...
-Registered in 0.004472 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1026ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (95.3 KB). Loaded Objects now: 3715.
-Memory consumption went from 203.6 MB to 203.5 MB.
-Total: 4.347200 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.508500 ms MarkObjects: 3.298500 ms  DeleteObjects: 0.085800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SwampHouse/Prefabs/House.prefab
+  artifactKey: Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/House.prefab using Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae641a93ed54e7f956b2148d4d6793c') in 0.045289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fences/fence1.prefab
+  artifactKey: Guid(940ab3ccea0aa9d478a6ba5cfe1506c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence1.prefab using Guid(940ab3ccea0aa9d478a6ba5cfe1506c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd343344fc61b566f10dcb1db7e02a22') in 0.004233 seconds 
