@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16165 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/EGOGOD/RowellPrototypes2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50638
+Successfully changed project path to: C:/EGOGOD/RowellPrototypes2022
+C:/EGOGOD/RowellPrototypes2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6860] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 1527235899 [EditorId] 1527235899 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6860] Host "[IP] 10.171.128.150 [Port] 0 [Flags] 2 [Guid] 1527235899 [EditorId] 1527235899 [Version] 1048832 [Id] WindowsEditor(7,JOHN-R4FP-W024) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Default GameObject BitMask: UI already registered
+Refreshing native plugins compatible for Editor in 83.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/EGOGOD/RowellPrototypes2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8082 MB
+    Driver:   30.0.101.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008019 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Domain Reload Profiling:
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\EGOGOD\RowellPrototypes2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (685ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Default GameObject BitMask: UI already registered
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (121.9 KB). Loaded Objects now: 3638.
+Memory consumption went from 201.4 MB to 201.3 MB.
+Total: 2.544400 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.157200 ms MarkObjects: 2.074500 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 429069.618590 seconds.
+  path: Assets/SwampHouse/Prefabs/door.prefab
+  artifactKey: Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/door.prefab using Guid(b615fec57735d9c4e812e9f1cc90b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1b667f1839e2e5255bc11ec3c81c31') in 0.138431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Key.prefab
+  artifactKey: Guid(0d20e1d66b73cd747922d8c2aa19b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Key.prefab using Guid(0d20e1d66b73cd747922d8c2aa19b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a021d4977c198cf78a334246b9034eb') in 0.040403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fences/gate.prefab
+  artifactKey: Guid(05e127ba46a3ae04eacf83d589ca4873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/gate.prefab using Guid(05e127ba46a3ae04eacf83d589ca4873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad596836ff3da20d53b487f950f94ca') in 0.009036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70167d1f2d7c4b6423935093a36a0f63') in 0.099364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Window.prefab
+  artifactKey: Guid(7eaeaf649770040418b98b8605bdb96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Window.prefab using Guid(7eaeaf649770040418b98b8605bdb96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aa3ca2e67d43dadc304f8319618f32') in 0.043540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SwampHouse/Prefabs/Ladder.prefab
+  artifactKey: Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Ladder.prefab using Guid(9ad4aa9ddaeb0d14cabed22a330afb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fc203c5f10885158b81e30d6998858') in 0.028243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/PhsyicsBox/SmallPhysicsBox.prefab
+  artifactKey: Guid(4c0022dfa1a9bd24897c8665f357b665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/PhsyicsBox/SmallPhysicsBox.prefab using Guid(4c0022dfa1a9bd24897c8665f357b665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3318e55feef15d60ecf2d7ac1ebd0cbc') in 0.027599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Incandescent lamp.prefab
+  artifactKey: Guid(870abe8e92bb2ae4fa98e2692d489f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Incandescent lamp.prefab using Guid(870abe8e92bb2ae4fa98e2692d489f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd654bd4c9704b717db7c344b88b628ab') in 0.026605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cabin/Prefabs/Lantern.prefab
+  artifactKey: Guid(3126ca4c2d851514395844c0d42d1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Prefabs/Lantern.prefab using Guid(3126ca4c2d851514395844c0d42d1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d977b969950d19bd866214992e296') in 0.044743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Wooden table.prefab
+  artifactKey: Guid(157eb6e39e01ebf4b9728380df90f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Wooden table.prefab using Guid(157eb6e39e01ebf4b9728380df90f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bff8fd535881e71f111566b175d0461') in 0.027209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cabin/Prefabs/Table.prefab
+  artifactKey: Guid(57479594e34ed7342a5460cfffef0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Prefabs/Table.prefab using Guid(57479594e34ed7342a5460cfffef0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a651eaec99526a166971e9ae6c4f0c') in 0.031448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Room.prefab
+  artifactKey: Guid(9d3fe81427a90ba459d648ce510d6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Room.prefab using Guid(9d3fe81427a90ba459d648ce510d6942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c5b8aec52d6038cd30b2df39d3dc62') in 0.026812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SwampHouse/Prefabs/Full/HideOut.prefab
+  artifactKey: Guid(696e59b6d0b879946a6111454c3205ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Full/HideOut.prefab using Guid(696e59b6d0b879946a6111454c3205ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7efb0af0e8dbb8df389269f4df45682') in 0.107420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SwampHouse/Prefabs/Stool.prefab
+  artifactKey: Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Stool.prefab using Guid(2722b6e3857d0aa4b8b7a5aac4b67dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4fb911bdad0636cbad88679a9a51e7') in 0.020458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Wood chair.prefab
+  artifactKey: Guid(b766e40c765d54f47b33afb59d1f903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Wood chair.prefab using Guid(b766e40c765d54f47b33afb59d1f903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b223cdd68d110414fc6e4f609783bff') in 0.024663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SwampHouse/Prefabs/Table 2.prefab
+  artifactKey: Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Table 2.prefab using Guid(d369aab3c2609f241b2f8b6aff4f01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0cfb8dae436844388db6c3c9715db6') in 0.028399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cabin/Prefabs/Stool.prefab
+  artifactKey: Guid(eb5ac4194e4262c44820347b391fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Prefabs/Stool.prefab using Guid(eb5ac4194e4262c44820347b391fc3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f3fe3aded83f20f9fcc8e08e8203f2') in 0.032703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Curtain.prefab
+  artifactKey: Guid(8cc796bf074b38844ad31c1e4ab3128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Curtain.prefab using Guid(8cc796bf074b38844ad31c1e4ab3128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b118c01afd71e980350435aeb25e9f61') in 0.026437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/StandingButton/StandingButton.prefab
+  artifactKey: Guid(aa9a0dc71c1a9304987d085466470973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/StandingButton/StandingButton.prefab using Guid(aa9a0dc71c1a9304987d085466470973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf103ece95a8aa5c6477becb1923dbd') in 0.086463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Wheelchair.prefab
+  artifactKey: Guid(9bdbe5e160ee8424ba6d6a35af3ba2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Wheelchair.prefab using Guid(9bdbe5e160ee8424ba6d6a35af3ba2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dfd20c29626c7445edfe3645a5454d') in 0.025479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fences/fence2.prefab
+  artifactKey: Guid(aae325f10678d8041bd3a1a4433c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence2.prefab using Guid(aae325f10678d8041bd3a1a4433c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af897a92d1d6e04f0fa69ccecdf9419c') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Door.prefab
+  artifactKey: Guid(141d9336c44a64a4c8ba3afff7a69b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Door.prefab using Guid(141d9336c44a64a4c8ba3afff7a69b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f0d0f31a82f9575931404377b06ae6') in 0.036913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cabin/Terrain/Tree/Tree.prefab
+  artifactKey: Guid(b7b499788a65fa94d8f44a273def80b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Terrain/Tree/Tree.prefab using Guid(b7b499788a65fa94d8f44a273def80b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8d00764be75d7110285d7c637c8fe7') in 0.087387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
+  artifactKey: Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/2-Source/ThirdParty/StarterAssets-FPC/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab using Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57f59aab8612d5ccb1f8fd0a89a0d93') in 0.030141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Fluorescent lamp.prefab
+  artifactKey: Guid(82d6102e26d76fc43984f82578eb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Fluorescent lamp.prefab using Guid(82d6102e26d76fc43984f82578eb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40205421bf33bdf4bc6d5bda676c7656') in 0.026457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fences/fence_column.prefab
+  artifactKey: Guid(18f52e9609c5ce84986850393c95338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence_column.prefab using Guid(18f52e9609c5ce84986850393c95338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e107d5cb3b3ef80d050930012cecc9') in 0.009745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SwampHouse/Prefabs/Radio_leftover.prefab
+  artifactKey: Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/Radio_leftover.prefab using Guid(c071178be0f88fd4d997db9c9910b2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e79e12442ca3ab4bd27dd90da058aac') in 0.040084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SwampHouse/Prefabs/House.prefab
+  artifactKey: Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwampHouse/Prefabs/House.prefab using Guid(b31fc469b564b8e4d84e9ddfe840121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8a54afc22b9c040c5f472e2105ad80') in 0.034440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fences/fence1.prefab
+  artifactKey: Guid(940ab3ccea0aa9d478a6ba5cfe1506c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/fence1.prefab using Guid(940ab3ccea0aa9d478a6ba5cfe1506c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac255f84da79ba70803b4ea2b57f132f') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Iron chair.prefab
+  artifactKey: Guid(bd2a496943cc6aa4b8d49188ce77767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Iron chair.prefab using Guid(bd2a496943cc6aa4b8d49188ce77767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975cb37aec93352d00b3e3488544cd79') in 0.057675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset pack for horror game/Prefabs/Dirty curtain.prefab
+  artifactKey: Guid(d371a4f30de5bcc4c832c9216325e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Prefabs/Dirty curtain.prefab using Guid(d371a4f30de5bcc4c832c9216325e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb63138b38014ee3fed3ae0bf911db') in 0.049791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cabin/Prefabs/Door.prefab
+  artifactKey: Guid(3e2c5ddf507e7054595d1df24d895eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cabin/Prefabs/Door.prefab using Guid(3e2c5ddf507e7054595d1df24d895eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e772558b461bc05e3aa14feb119e1a') in 0.022371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/MovingPlatform/MovingPlatform.prefab
+  artifactKey: Guid(1173fed27e11d29498babfa4e0fe28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Etra Games/Etra'sStarterAssets/1-UserAssets/InteractableObjects/MovingPlatform/MovingPlatform.prefab using Guid(1173fed27e11d29498babfa4e0fe28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90629d74bbd215f17d41e4a2ef6b64af') in 0.024816 seconds 
